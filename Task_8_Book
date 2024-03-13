@@ -1,0 +1,31 @@
+public class Book {
+    String title;
+    String author;
+
+    int year;
+
+    public Book(String title, String author, int year) {
+        this.title = title;
+        this.author = author;
+        this.year = year;
+    }
+
+    public void BookInfo() {
+        System.out.println("Title: " + title);
+        System.out.println("Author: " + author);
+        System.out.println("Year of publication: " + year);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Book book = new Book("Pale Horse", "Agatha Christie", 2017);
+        book.BookInfo();
+
+    }
+}
+
+//Output: 
+Title: Pale Horse
+Author: Agatha Christie
+Year of publication: 2017

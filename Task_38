@@ -1,0 +1,22 @@
+public class Task_38 {
+    public static void main(String[] args) {
+        int[] array = {1, 3, 6, 5, 9};
+
+        boolean containsFive = false;
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == 5) {
+                containsFive = true;
+                break;
+            }
+        }
+        
+        if (containsFive) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+
+//Output: Yes

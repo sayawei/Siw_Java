@@ -1,0 +1,29 @@
+public class Task8 {
+    public static void main(String[] args) {
+        int score = 85;
+
+        String result;
+
+        switch(score / 10) {
+            case 10:
+            case 9:
+                result = "Excellent";
+                break;
+            case 8:
+                result = "Good";
+                break;
+            case 7:
+                result = "Average";
+                break;
+            case 6:
+                result = "Pass";
+                break;
+            default:
+                result = "Fail";
+        }
+
+        System.out.println(result);
+    }
+}
+
+//Output: Good

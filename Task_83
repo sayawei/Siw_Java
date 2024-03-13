@@ -1,0 +1,11 @@
+public class Task_83 {
+    public static void main(String[] args) {
+        String[] languages = {"Kazakh", "English", "Russian"};
+
+        int length = languages.length;
+
+        System.out.println("Length of the array: " + length);
+    }
+}
+
+//Output: Length of the array: 3

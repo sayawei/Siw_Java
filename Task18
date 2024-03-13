@@ -1,0 +1,15 @@
+public class Task18 {
+    public static void main(String[] args) {
+        int n = 20;
+        int x = 5;
+        int sum = 0;
+
+        while (sum < n) {
+            sum += x;
+        }
+
+        System.out.println("Sum: " + sum);
+    }
+}
+
+//Output: Sum: 20

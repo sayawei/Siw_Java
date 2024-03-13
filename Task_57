@@ -1,0 +1,19 @@
+public class Task_57 {
+    public static void main(String[] args) {
+        int[] array = {1, 2, 4, 5, 4, 6};
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == 4) {
+                continue;
+            }
+
+            System.out.println("Element at index " + i + ": " + array[i]);
+        }
+    }
+}
+
+//Output: 
+Element at index 0: 1
+Element at index 1: 2
+Element at index 3: 5
+Element at index 5: 6

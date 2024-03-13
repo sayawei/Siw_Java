@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Task83 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the length of the rectangle: ");
+        int length = scanner.nextInt();
+
+        System.out.println("Enter the width of the rectangle: ");
+        int width = scanner.nextInt();
+
+        System.out.println("The perimeter of the rectangle: " + (2*(length+width)));
+    }
+}
+
+//Output: 
+Enter the length of the rectangle: 
+7
+Enter the width of the rectangle: 
+9
+The perimeter of the rectangle: 32

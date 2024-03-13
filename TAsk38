@@ -1,0 +1,10 @@
+public class TAsk38 {
+    public static void main(String[] args) {
+        int number = 5;
+        int square = number * number;
+
+        System.out.println("Square of " + number + " is " + square);
+    }
+}
+
+//Output: Square of 5 is 25

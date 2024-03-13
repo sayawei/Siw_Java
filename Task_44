@@ -1,0 +1,17 @@
+public class Task_44 {
+    public static void main(String[] args) {
+        int[] array = {1, 3, 6, 5, 9};
+
+        int sumOfOdds = 0;
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 != 0) {
+                sumOfOdds += array[i];
+            }
+        }
+
+        System.out.println("Sum of odd elements: " + sumOfOdds);
+    }
+}
+
+//Output: Sum of odd elements: 18
